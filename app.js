@@ -14,6 +14,7 @@ function celciusconvert () {
     kelvinInput.value = roundnum(kelvinTemp);
     
   }
+
   function fahrenheitconvert(){
       const fahrenheitTemp = parseFloat(fahrenheitInput.value);
       const celciusTemp = (fahrenheitTemp-32) /(1.8);
